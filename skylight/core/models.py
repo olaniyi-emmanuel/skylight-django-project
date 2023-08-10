@@ -4,7 +4,7 @@ from django.db import models
 
 class profile (models.Model):
     user = pass
-    id_user = 
+    id_user = nuser
     bio = 
     profileimg = models.ImageField(upload_to='profile_images')
     location = 
